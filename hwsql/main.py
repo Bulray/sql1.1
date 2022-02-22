@@ -103,24 +103,3 @@ def get_by_genre(genre: str):
 if __name__ == '__main__':
     app.run(host="localhost", port=8080).
 
-# sql = f'''
-# SELECT *
-# from netflix n
-# where n.show_id = "s2"
-# '''
-# print(get_result(sql))
-
-
-# sql = f'''
-# SELECT *
-# from netflix n
-# where n.show_id
-# '''
-
-# format = {
-#   "title": "title",
-#   "country": "country",
-#   "release_year": 2021,
-#   "genre": "listed_in",
-#   "description": "description"
-# }
